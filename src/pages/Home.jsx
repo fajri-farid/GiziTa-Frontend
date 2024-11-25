@@ -124,6 +124,26 @@ const Home = () => {
           <div className="flex-1 border-t-2 border-white"></div>
         </div>
       </div>
+
+      {/* keempat */}
+      <div className="flex gap-16 mx-20 my-12 p-4">
+        <div className="w-[70%] flex flex-col gap-10">
+          <h1 className="text-[50px] font-extrabold tracking-wider leading-[1]">
+            Bagaimana cara kita <br />
+            berkontribusi?
+          </h1>
+          <p className="text-xl tracking-wider leading-[1.5]">
+            Bergabunglah bersama kami dalam misi untuk memerangi stunting.
+            Platform kami menyediakan ruang bagi Anda untuk memberikan
+            kontribusi yang berarti, menawarkan dukungan Anda melalui donasi,
+            konsultasi ahli, dan saran nutrisi. Bersama, kita dapat memastikan
+            setiap anak memiliki kesempatan untuk tumbuh sehat dan berkembang.
+          </p>
+        </div>
+        <div className="w-[30%] justify-center flex">
+          <img src="src\assets\Home\gambar3.svg" alt="" />
+        </div>
+      </div>
     </div>
   );
 };
