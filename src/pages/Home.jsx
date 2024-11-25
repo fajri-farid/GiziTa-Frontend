@@ -95,7 +95,7 @@ const Home = () => {
         >
           Apa yang terjadi saat ini?
         </h1>
-        <ul className="list-disc ml-6 text-lg flex flex-col gap-4 tracking-wider">
+        <ul className="list-disc ml-6 text-lg flex flex-col gap-4 tracking-wider text-justify">
           <li>
             Berdasarkan Survei Kesehatan Indonesia 2023, prevalensi stunting di
             Indonesia sebesar 21,5 persen. Angka ini hanya turun 0,1 persen dari
@@ -132,7 +132,7 @@ const Home = () => {
             Bagaimana cara kita <br />
             berkontribusi?
           </h1>
-          <p className="text-xl tracking-wider leading-[1.5]">
+          <p className="text-xl tracking-wider leading-[1.5] text-justify">
             Bergabunglah bersama kami dalam misi untuk memerangi stunting.
             Platform kami menyediakan ruang bagi Anda untuk memberikan
             kontribusi yang berarti, menawarkan dukungan Anda melalui donasi,
@@ -143,6 +143,16 @@ const Home = () => {
         <div className="w-[30%] justify-center flex">
           <img src="src\assets\Home\gambar3.svg" alt="" />
         </div>
+      </div>
+
+      {/* kelima */}
+      <div className="relative mt-20">
+        <img
+          src="src\assets\Home\footer.png"
+          alt=""
+          className="h-full object-cover w-full"
+        />
+        <div className="absolute inset-0 bg-[#7CBCA0] bg-opacity-40"></div>
       </div>
     </div>
   );
