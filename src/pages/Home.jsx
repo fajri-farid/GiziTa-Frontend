@@ -3,6 +3,159 @@ import "../styles/home.css";
 const Home = () => {
   return (
     <div>
+      {/* hiasan */}
+      <img
+        src="src/assets/Home/Union.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "250px",
+          left: "530px",
+          width: "30px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Union.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "120px",
+          left: "1550px",
+          width: "30px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "257px",
+          left: "17px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "520px",
+          left: "696px",
+          width: "48px",
+          height: "60px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Union.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "750px",
+          left: "42px",
+          width: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "835px",
+          left: "525px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "875px",
+          left: "577px",
+          width: "48px",
+          height: "60px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "850px",
+          right: "200px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Union.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "1450px",
+          left: "500px",
+          width: "30px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "1500px",
+          left: "42px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "1533px",
+          right: "100px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
+      <img
+        src="src/assets/Home/Subtract.svg"
+        alt="Hiasan"
+        className="absolute"
+        style={{
+          top: "2200px",
+          left: "58px",
+          width: "32px",
+          height: "40px",
+          zIndex: 10,
+        }}
+      />
+
       {/* pertama */}
       <div className="flex justify-between mt-10">
         <div className="m-10 p-4 flex gap-6 flex-col justify-center">
