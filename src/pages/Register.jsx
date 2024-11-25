@@ -52,7 +52,7 @@ const Register = () => {
 
   return (
     <div className="grotesk flex h-screen">
-      <div className="flex-grow flex items-center justify-center bg-[#EEEEEE]">
+      <div className="flex-grow flex items-center justify-center bg-[#EEEEEE] flex-1">
         <div className="text-center flex flex-col gap-10 w-full max-w-md">
           <h1 className="text-4xl font-bold text-[#49A47A]">Regist</h1>
           <form className="text-md" onSubmit={handleSubmit}>
@@ -144,11 +144,11 @@ const Register = () => {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative flex-1 flex">
         <img
-          src="src/assets/regist.webp"
+          src="src/assets/auth.jpg"
           alt="register"
-          className="h-full object-cover"
+          className="h-full object-cover object-left"
         />
         <div className="absolute inset-0 bg-[#95BB72] bg-opacity-20"></div>
       </div>

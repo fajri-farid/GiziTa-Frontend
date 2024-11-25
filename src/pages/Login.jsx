@@ -44,17 +44,17 @@ const Login = () => {
 
   return (
     <div className="grotesk flex h-screen">
-      <div className="relative kiri">
+      {/* Bagian kiri */}
+      <div className="relative kiri flex-1">
         <img
-          src="src/assets/login.webp"
+          src="src/assets/auth.jpg"
           alt="Login"
-          className="h-full object-cover"
+          className="h-full w-full object-cover object-right"
         />
         <div className="absolute inset-0 bg-[#95BB72] bg-opacity-20"></div>
       </div>
 
-      {/* Bagian kanan: Form login */}
-      <div className="kanan flex-grow flex items-center justify-center bg-[#EEEEEE]">
+      <div className="kanan flex-1 flex items-center justify-center bg-[#EEEEEE]">
         <div className="text-center flex flex-col gap-14 w-full max-w-md">
           <h1 className="text-4xl font-bold text-[#49A47A]">Log in</h1>
           <form className="text-lg" onSubmit={handleLogin}>
