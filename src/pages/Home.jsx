@@ -48,7 +48,7 @@ const Home = () => {
         </div>
 
         <div className="w-[60%]">
-          <div className="flex flex-col mx-10 my-12 p-4 gap-10">
+          <div className="flex flex-col mx-10 my-12 p-4 px-10 gap-10">
             <h1
               className="font-bold text-[1.6rem] leading-[1.2] tracking-widest"
               style={{
@@ -82,6 +82,46 @@ const Home = () => {
           <div className="flex flex-col gap-2 mx-10 my-12 p-4">
             <hr className="border-t-2 border-white" />
           </div>
+        </div>
+      </div>
+
+      {/* ketiga */}
+      <div className="flex flex-col gap-16 mx-20 my-12 p-4">
+        <h1
+          className="text-4xl font-extrabold text-center"
+          style={{
+            textShadow: "-4px 8px 6px rgba(0, 0, 0, 0.3)", // offset-y menjadi -2px
+          }}
+        >
+          Apa yang terjadi saat ini?
+        </h1>
+        <ul className="list-disc ml-6 text-lg flex flex-col gap-4 tracking-wider">
+          <li>
+            Berdasarkan Survei Kesehatan Indonesia 2023, prevalensi stunting di
+            Indonesia sebesar 21,5 persen. Angka ini hanya turun 0,1 persen dari
+            tahun sebelumnya yang sebesar 21,6 persen.
+          </li>
+          <li>
+            Provinsi Papua Tengah menjadi provinsi dengan prevalensi stunting
+            tertinggi se-Indonesia pada 2023 yaitu 39,2 persen.
+          </li>
+          <li>
+            Di Provinsi Sulawesi Tenggara, angka stunting mengalami kenaikan
+            dari 27,7% (SSGI, 2022) menjadi 30% (SKI, 2023).
+          </li>
+          <li>
+            Di Kota Baubau, angka stunting mengalami kenaikan dari 26% (SSGI,
+            2022) menjadi 29,7% (SKI, 2023).
+          </li>
+          <li>
+            Pemerintah menargetkan angka prevalensi stunting di Indonesia
+            mencapai 14% pada akhir 2024.
+          </li>
+        </ul>
+        <div className="flex items-center justify-center space-x-16 px-10">
+          <div className="flex-1 border-t-2 border-white"></div>
+          <div className="w-6 h-6 rounded-full border-4 border-white"></div>
+          <div className="flex-1 border-t-2 border-white"></div>
         </div>
       </div>
     </div>
