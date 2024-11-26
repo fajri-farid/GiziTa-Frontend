@@ -13,7 +13,6 @@ export const Header = () => {
       cookie.startsWith("JSESSIONID=")
     );
 
-    // Tambahkan pengecekan nilai cookie
     if (sessionCookie && sessionCookie.split("=")[1] !== "") {
       setIsLoggedIn(true);
       console.log("User logged in with session:", sessionCookie);
@@ -36,13 +35,17 @@ export const Header = () => {
   return (
     <header>
       <div className="container mx-auto flex justify-between items-center py-4">
-        <h1 className="nama text-[38px] tracking-wider font-bold text-white">
-          GiziTa'
-        </h1>
+        <Link to="/">
+          <h1 className="nama text-[38px] tracking-wider font-bold text-white">
+            GiziTa'
+          </h1>
+        </Link>
 
         <nav>
           <ul className="grotesk flex space-x-6 items-center text-white">
-            <li className=" cursor-pointer">Beranda</li>
+            <Link to="/">
+              <li className=" cursor-pointer">Beranda</li>
+            </Link>
             <li className=" cursor-pointer">Konsultasi</li>
             <li className=" cursor-pointer">Donasi</li>
             <li className=" cursor-pointer">Saran Nutrisi</li>
