@@ -14,6 +14,21 @@ const Profile = () => {
     profilePicture: "",
   });
 
+  const handleLogout = async () => {
+    try {
+      const response = await axios.post(
+        "http://localhost:8080/logout",
+        {},
+        { withCredentials: true }
+      );
+      if (response.data.success) {
+        window.location.href = "/login";
+      }
+    } catch (error) {
+      console.error("Error during logout:", error);
+    }
+  };
+
   useEffect(() => {
     const fetchProfile = async () => {
       try {
@@ -89,7 +104,10 @@ const Profile = () => {
             >
               Keamanan & Kata Sandi
             </li>
-            <li className="p-2 text-red-500 hover:underline cursor-pointer">
+            <li
+              className="p-2 text-red-500 hover:underline cursor-pointer"
+              onClick={handleLogout}
+            >
               Keluar
             </li>
           </ul>
