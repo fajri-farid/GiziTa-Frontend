@@ -11,9 +11,7 @@ const Konsultasi = () => {
         <div className="w-[80%] mx-auto border-t-2 border-[#C9C9C9] mt-4"></div>
       </div>
 
-      {/* Content */}
       <div className="bg-white bg-opacity-[0.88] w-full flex-1 rounded-b-lg shadow-md p-6 flex flex-col justify-between">
-        {/* Loading Indicator */}
         <div className="flex flex-col text-sm items-center justify-center text-center mb-6">
           <p className="text-gray-600 grotesk mb-2">Mohon tunggu sebentar...</p>
           <p className="text-gray-600 grotesk flex items-center justify-center">
@@ -26,23 +24,17 @@ const Konsultasi = () => {
           </p>
         </div>
 
-        {/* Chat Input (Paling Bawah) */}
         <div className="relative flex items-center w-[90%] mt-auto justify-center mx-auto">
-          {/* Smiley Icon */}
           <img
             src="/src/assets/Konsultasi/Smiley Happy.svg"
             alt="Smiley"
             className="absolute left-4 w-6 h-6"
           />
-
-          {/* Input Field */}
           <input
             type="text"
             placeholder="Ketik pesan..."
             className="w-full px-12 pr-12 py-2 border border-[#49A47A] rounded-full text-gray-700 focus:outline-none"
           />
-
-          {/* Send Icon */}
           <img
             src="/src/assets/Konsultasi/Send.svg"
             alt="Send"
