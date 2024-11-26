@@ -2,7 +2,7 @@ import React from "react";
 
 const Konsultasi = () => {
   return (
-    <div className="flex flex-col h-[calc(100vh-90px)] bg-gray-100">
+    <div className="flex flex-col h-[calc(100vh-90px)] bg-[rgba(73,148,122,0.9)]">
       <div className="text-center bg-white bg-opacity-[0.88] w-full py-4 rounded-t-lg shadow">
         <h1 className="text-2xl font-semibold grotesk text-gray-700 mt-4">
           Konsultasi Online
