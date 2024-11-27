@@ -285,7 +285,7 @@ const Home = () => {
             Bagaimana cara kita <br />
             berkontribusi?
           </h1>
-          <p className="text-xl tracking-wider leading-[1.5] text-justify">
+          <p className="text-lg tracking-wider leading-[1.5] text-justify">
             Bergabunglah bersama kami dalam misi untuk memerangi stunting.
             Platform kami menyediakan ruang bagi Anda untuk memberikan
             kontribusi yang berarti, menawarkan dukungan Anda melalui donasi,

@@ -7,6 +7,8 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Profile from "./pages/Profile";
 import { Header } from "./components/Header";
 import Konsultasi from "./pages/Konsultasi";
+import TanyaAI from "./pages/TanyaAI";
+import ArticleList from "./pages/ArticleList";
 
 function App() {
   const location = useLocation();
@@ -23,6 +25,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/konsultasi" element={<Konsultasi />} />
+          <Route path="/tanyaAI" element={<TanyaAI />} />
+          <Route path="/artikel" element={<ArticleList />} />
           <Route path="*" Component={NotFoundPage} />
         </Routes>
       </div>

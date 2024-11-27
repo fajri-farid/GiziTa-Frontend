@@ -49,9 +49,12 @@ export const Header = () => {
             <Link to="/konsultasi">
               <li className=" cursor-pointer">Konsultasi</li>
             </Link>
-            <li className=" cursor-pointer">Donasi</li>
-            <li className=" cursor-pointer">Saran Nutrisi</li>
-            <li className="cursor-pointer">Artikel</li>
+            <Link to="/tanyaAI">
+              <li className=" cursor-pointer">TanyaAI</li>
+            </Link>
+            <Link to="/artikel">
+              <li className="cursor-pointer">Artikel</li>
+            </Link>
             {isLoggedIn ? (
               <li>
                 <button onClick={handleProfileClick}>
