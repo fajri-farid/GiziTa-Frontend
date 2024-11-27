@@ -46,14 +46,19 @@ export const Header = () => {
             <Link to="/">
               <li className=" cursor-pointer">Beranda</li>
             </Link>
-            <Link to="/konsultasi">
-              <li className=" cursor-pointer">Konsultasi</li>
-            </Link>
             <Link to="/tanyaAI">
               <li className=" cursor-pointer">TanyaAI</li>
             </Link>
+            <Link to="/konsultasi">
+              <li className=" cursor-pointer">Konsultasi</li>
+            </Link>
             <Link to="/artikel">
               <li className="cursor-pointer">Artikel</li>
+            </Link>
+            <Link to="/notifikasi">
+              <li>
+                <img src="src\assets\Notif.svg" alt="" />
+              </li>
             </Link>
             {isLoggedIn ? (
               <li>

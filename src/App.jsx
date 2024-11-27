@@ -9,6 +9,7 @@ import { Header } from "./components/Header";
 import Konsultasi from "./pages/Konsultasi";
 import TanyaAI from "./pages/TanyaAI";
 import ArticleList from "./pages/ArticleList";
+import Notification from "./pages/Notification";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
           <Route path="/konsultasi" element={<Konsultasi />} />
           <Route path="/tanyaAI" element={<TanyaAI />} />
           <Route path="/artikel" element={<ArticleList />} />
+          <Route path="/notifikasi" element={<Notification />} />
           <Route path="*" Component={NotFoundPage} />
         </Routes>
       </div>
