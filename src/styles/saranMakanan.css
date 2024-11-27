@@ -1,0 +1,29 @@
+.saran-makanan-container {
+  position: relative;
+  background-image: url("../src/assets/TanyaAI/bg-saran-makanan.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  text-align: center;
+}
+
+.saran-makanan-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(73, 164, 122, 0.94);
+  z-index: 1;
+}
+
+.saran-makanan-container > * {
+  position: relative;
+  z-index: 2;
+}
