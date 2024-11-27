@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Links, useNavigate } from "react-router-dom";
 import "../App.css";
 import "../styles/header.css";
 import { useEffect, useState } from "react";
@@ -46,10 +46,15 @@ export const Header = () => {
             <Link to="/">
               <li className=" cursor-pointer">Beranda</li>
             </Link>
-            <li className=" cursor-pointer">Konsultasi</li>
-            <li className=" cursor-pointer">Donasi</li>
-            <li className=" cursor-pointer">Saran Nutrisi</li>
-            <li className="cursor-pointer">Artikel</li>
+            <Link to="/konsultasi">
+              <li className=" cursor-pointer">Konsultasi</li>
+            </Link>
+            <Link to="/tanyaAI">
+              <li className=" cursor-pointer">TanyaAI</li>
+            </Link>
+            <Link to="/artikel">
+              <li className="cursor-pointer">Artikel</li>
+            </Link>
             {isLoggedIn ? (
               <li>
                 <button onClick={handleProfileClick}>
