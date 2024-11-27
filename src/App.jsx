@@ -10,6 +10,9 @@ import Konsultasi from "./pages/Konsultasi";
 import TanyaAI from "./pages/TanyaAI";
 import ArticleList from "./pages/ArticleList";
 import Notification from "./pages/Notification";
+import SaranMakanan from "./pages/SaranMakanan";
+import SaranResep from "./pages/SaranResep";
+import Chatbot from "./pages/Chatbot";
 
 function App() {
   const location = useLocation();
@@ -29,6 +32,9 @@ function App() {
           <Route path="/tanyaAI" element={<TanyaAI />} />
           <Route path="/artikel" element={<ArticleList />} />
           <Route path="/notifikasi" element={<Notification />} />
+          <Route path="/tanyaAI/saran-makanan" element={<SaranMakanan />} />
+          <Route path="/tanyaAI/saran-resep" element={<SaranResep />} />
+          <Route path="/tanyaAI/chatbot" element={<Chatbot />} />
           <Route path="*" Component={NotFoundPage} />
         </Routes>
       </div>
