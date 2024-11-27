@@ -25,13 +25,6 @@ const TanyaAI = () => {
           <p className="font-semibold text-[#5A5A5A] text-lg">Saran Resep</p>
         </div>{" "}
       </Link>
-
-      <Link to="/tanyaAI/chatbot">
-        <div className="bg-white px-10 py-14 text-center flex flex-col gap-6 rounded-md">
-          <img src="src\assets\TanyaAI\chatbot.svg" alt="" className="w-40" />
-          <p className="font-semibold text-[#5A5A5A] text-lg">Chatbot</p>
-        </div>
-      </Link>
     </div>
   );
 };
