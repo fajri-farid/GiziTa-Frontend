@@ -2,7 +2,7 @@ import "../styles/home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="text-white">
       {/* hiasan */}
       <img
         src="src/assets/Home/Union.svg"
